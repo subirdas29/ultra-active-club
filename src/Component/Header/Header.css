@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    align-items: center;
+    color:blueviolet;
+    height: 50px;
+    padding-left: 30px;
+
+}
+.header h2{
+    margin-left: 20px;
+}

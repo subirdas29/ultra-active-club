@@ -1,0 +1,19 @@
+import React from 'react';
+
+const Activity = (props) => {
+    const {activity}=props;
+    const {name,time,img} =activity;
+    return (
+        <div>
+            <div className='all-activity'>
+                <img src={img} alt="" />
+                <h3>{name}</h3>
+                <p>Time required:{time}</p>
+                <button>Add to list</button>
+
+            </div>
+        </div>
+    );
+};
+
+export default Activity;
