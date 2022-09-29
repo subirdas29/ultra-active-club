@@ -15,6 +15,7 @@ const Activities = () => {
     
     const handleAddToTime = (activity) =>
     {
+        console.log(activity);
         const newTime = [...time, activity]
         setTime(newTime);
     }

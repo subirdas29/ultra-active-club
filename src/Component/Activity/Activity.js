@@ -10,7 +10,7 @@ const Activity = (props) => {
                 <img src={img} alt="" />
                 <h3>{name}</h3>
                 <p>Time required: {time}s</p>
-                <button>Add to list</button>
+                <button onClick={()=> props.handleAddToTime(activity)}>Add to list</button>
 
             </div>
         </div>
