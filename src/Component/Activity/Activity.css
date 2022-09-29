@@ -1,10 +1,11 @@
 .all-activity img
 {
-width: 100px;
-height: 100px;
+    width: 200px;
+    height: 100px;
 border-radius: 8px;
 margin:7px;
 }
+
 .all-activity
 {
     background-color: rgb(220, 231, 240);
