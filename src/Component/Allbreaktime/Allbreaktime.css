@@ -1,0 +1,12 @@
+.timeButton{
+    margin: 5px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    
+ }
+ .timeButton:hover{
+     background-color: rgb(66, 250, 49);
+ 
+  }

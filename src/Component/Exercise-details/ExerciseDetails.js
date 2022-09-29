@@ -24,9 +24,7 @@ const ExerciseDetails = (props) => {
     }
     const diffToast =()=>
     {
-        toast("Wow so easy!",{
-            position:"top-center"
-        });
+        alert("Congratulation! You are Complete your exercise");
     }
 
     return (
@@ -55,7 +53,7 @@ const ExerciseDetails = (props) => {
                 <p>Break time: {showTime}</p>
             </div>
 
-            <button className='btn btn-primary' onClick={diffToast}>Activity Complete</button>
+            <button className='button' onClick={diffToast}>Activity Complete</button>
             </div>
                 
         

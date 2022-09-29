@@ -1,12 +1,12 @@
 import React from 'react';
+import './Allbreaktime.css'
 
 const AllBreakTime = (props) => {
     const {time,handleBreakTime}=props;
     return (
-     
-            
-                <button onClick={()=> handleBreakTime(time)}>{time}</button>
 
+            
+                <button className="timeButton" onClick={()=> handleBreakTime(time)}>{time}</button>
      
     );
 };

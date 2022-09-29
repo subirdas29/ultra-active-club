@@ -17,22 +17,18 @@ padding: 5px 10px;
     background-color: rgb(225, 231, 231);
     padding: 5px 10px;
 }
-.break-time p{
-   margin: 5px;
-   background-color: aqua;
-   padding: 5px;
-   border-radius: 10px;
-}
-.break-time p:hover{
-    background-color: yellowgreen;
 
- }
 .button
 {
+    color:white;
+    font-size:medium;
+    font-weight: bold;
     padding: 10px 80px;
     border: 0;
-    background-color: sandybrown;
+    border-radius: 5px;
+    background-color: rgb(38, 162, 27);
 }
+
 
 .details-exercise img{
 

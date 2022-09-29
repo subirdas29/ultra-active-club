@@ -18,7 +18,7 @@ const BreakTime = ({handleBreakTime}) => {
             {
                 
                     breakTime.map(time=> 
-                    <AllBreakTime
+                    <AllBreakTime 
                      key={time.id}
                         time={time.breaktime}
                         handleBreakTime={handleBreakTime}>
