@@ -17,13 +17,28 @@ display: block;
     background-color:
     rgba(255, 153, 0, 0.3);
 }
- @media screen and (max-width:768px) {
-    .activity-info{
-        grid-template-columns: repeat(1,1fr);
-    }
-} 
-@media screen and (max-width:900px) {
+
+@media screen and (max-width:960px) {
     .activity-info{
         grid-template-columns: repeat(2,1fr);
     }
+    .activities-details{
+     
+        grid-template-columns: 2fr 1fr;
+       
+    }
 } 
+
+@media screen and (max-width:500px) {
+    .activity-info{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .activities-details{
+     
+        grid-template-columns: 1fr;
+       
+    }
+} 
+
+
+

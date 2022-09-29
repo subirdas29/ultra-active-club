@@ -1,10 +1,11 @@
 import React, {useState } from 'react';
 
 import BreakTime from '../breakTime/BreakTime';
+import images from '../../images/menpic.jpg'
 import './ExerciseDetails.css'
 
 const ExerciseDetails = (props) => {
-    const {name,weight,height,age,exerciseTime}=props
+    const {name,weight,height,age,address,exerciseTime}=props
 
         let totalTime =0;
     
@@ -23,8 +24,9 @@ const ExerciseDetails = (props) => {
     return (
         <div className='details-exercise'>
             <div className='info'>
-            <img src="" alt="" />
-            <h2>name:{name}</h2>
+            <img src={images} alt="" />
+            <div className='name-address'><h2>name:{name}</h2>
+            <p>address:{address}</p></div>
             </div>
             <div className='weight-info'>
             <p>weight:{weight}</p>

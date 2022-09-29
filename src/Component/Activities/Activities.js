@@ -39,6 +39,7 @@ const Activities = () => {
             </div>
             <div className='exercise-details'>
                 <ExerciseDetails name="Subir Das"
+                address="Chattogram,BD"
                 weight="65kg"
                 height="6"
                 age="24years"

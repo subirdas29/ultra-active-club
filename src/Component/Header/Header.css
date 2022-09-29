@@ -5,8 +5,10 @@
     color:blueviolet;
     height: 50px;
     padding-left: 30px;
+    width: auto;
 
 }
 .header h2{
     margin-left: 20px;
 }
+
