@@ -21,11 +21,14 @@ const Activities = () => {
     }
     
     return (
-        <div>
-            <span>Selected the exercise</span>
+        <div>Selected the exercise
         <div className='activities-details'>
-            <div className='activity-info'>
+             
+       
+       <div className='activity-info'>
+            
                 {
+                    
                 activities.map(activity=> 
                 <Activity
                  key={activity.id}
@@ -43,8 +46,8 @@ const Activities = () => {
                 
             </div>
             </div>
+            </div>
             
-        </div>
     );
 };
 
