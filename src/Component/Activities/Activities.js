@@ -14,6 +14,8 @@ const Activities = () => {
 
 
     return (
+        <div>
+            <span>Selected the exercise</span>
         <div className='activities-details'>
             <div className='activity-info'>
                 {
@@ -26,6 +28,7 @@ const Activities = () => {
                 weight="65kg"
                 height="6"
                 age="24years"></ExerciseDetails>
+            </div>
             </div>
             
         </div>

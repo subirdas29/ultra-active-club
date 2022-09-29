@@ -21,10 +21,10 @@ const ExerciseDetails = (props) => {
             </div>
             <div className='break-time'>
                 <p>10s</p>
-                <p>10s</p>
-                <p>10s</p>
-                <p>10s</p>
-                <p>10s</p>
+                <p>20s</p>
+                <p>30s</p>
+                <p>40s</p>
+                <p>50s</p>
             </div>
             <div>
                 <h2>Exercise Details</h2>

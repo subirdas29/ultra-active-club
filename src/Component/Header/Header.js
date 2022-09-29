@@ -10,7 +10,7 @@ const Header = () => {
             <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
             <h2>OUR-ACTIVEITY-CLUB</h2>
             </div>
-            <span>Selected your exercise</span>
+            
         </div>
     );
 };
