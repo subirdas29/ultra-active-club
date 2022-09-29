@@ -9,7 +9,7 @@ const Activity = (props) => {
             <div className='all-activity'>
                 <img src={img} alt="" />
                 <h3>{name}</h3>
-                <p>Time required:{time}</p>
+                <p>Time required: {time}s</p>
                 <button>Add to list</button>
 
             </div>

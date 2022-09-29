@@ -1,0 +1,17 @@
+.details-exercise{
+    padding: 20px;
+}
+.info p
+{
+display: flex;
+}
+
+.break-time{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(225, 231, 231);
+    padding: 5px 10px;
+}
+.break-time p{
+   margin-left: 5px;
+}

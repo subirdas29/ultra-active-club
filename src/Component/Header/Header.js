@@ -6,9 +6,11 @@ import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
     return (
         <div className='header'>
-             <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
-            
+            <div className='header-part'>
+            <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
             <h2>OUR-ACTIVEITY-CLUB</h2>
+            </div>
+            <span>Selected your exercise</span>
         </div>
     );
 };

@@ -1,7 +1,7 @@
 .all-activity img
 {
-width: 286px;
-height: 286px;
+width: 100px;
+height: 100px;
 border-radius: 8px;
 margin:7px;
 }
@@ -13,4 +13,6 @@ margin:7px;
 .all-activity button
 {
     padding: 10px 80px;
+    border: 0;
+    background-color: sandybrown;
 }
