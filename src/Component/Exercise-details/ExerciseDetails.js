@@ -8,10 +8,13 @@ const ExerciseDetails = (props) => {
             <div className='info'>
             <img src="" alt="" />
             <h2>name:{name}</h2>
+            </div>
+            <div className='weight-info'>
             <p>weight:{weight}</p>
               <p>height:{height}</p>
             <p> age:{age}</p>
             </div>
+            
             
             <div>
                 <h2>Add a break</h2>
@@ -28,9 +31,9 @@ const ExerciseDetails = (props) => {
                 <p>Exercise time: {}</p>
                 <p>Break time: {}</p>
             </div>
-            <div>
-                <button>Activity Complete</button>
-            </div>
+         
+                <button className='button'>Activity Complete</button>
+           
             
         </div>
     );
