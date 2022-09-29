@@ -1,0 +1,26 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6",
+        "breaktime": 10
+       
+      },
+      {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b3626e",
+        "breaktime": 20
+      }
+      {
+        "id": "124e13b9-2d54-4b2f-a74d-a7b362d6",
+        "breaktime": 30
+       
+      },
+      {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b626e",
+        "breaktime": 40
+      }
+      {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b3626",
+        "breaktime": 50
+       
+      }
+
+]
