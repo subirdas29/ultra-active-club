@@ -1,3 +1,8 @@
+.heading
+{
+    font-size: 40px;
+    
+}
 .activities-details{
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -17,6 +22,8 @@ display: block;
 .exercise-details{
     background-color:
     rgba(255, 153, 0, 0.3);
+    
+
 }
 
 @media screen and (max-width:960px) {

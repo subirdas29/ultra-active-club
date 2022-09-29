@@ -21,12 +21,11 @@ const Activities = () => {
     }
     
     return (
-        <div>Selected the exercise
+        <div>
+            <h1 className='heading'>Selected the exercise</h1>
         <div className='activities-details'>
-             
        
        <div className='activity-info'>
-            
                 {
                     
                 activities.map(activity=> 
