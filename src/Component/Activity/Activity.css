@@ -1,1 +1,16 @@
-ddd
+.all-activity img
+{
+width: 286px;
+height: 286px;
+border-radius: 8px;
+margin:7px;
+}
+.all-activity
+{
+    background-color: rgb(220, 231, 240);
+    padding: 20px;
+}
+.all-activity button
+{
+    padding: 10px 80px;
+}
