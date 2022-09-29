@@ -3,6 +3,8 @@ import React, {useState } from 'react';
 import BreakTime from '../breakTime/BreakTime';
 import images from '../../images/menpic.jpg'
 import './ExerciseDetails.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ExerciseDetails = (props) => {
     const {name,weight,height,age,address,exerciseTime}=props
@@ -19,6 +21,12 @@ const ExerciseDetails = (props) => {
     const handleBreakTime = (breakTime) =>
     {
        setShowTime(breakTime);
+    }
+    const diffToast =()=>
+    {
+        toast("Wow so easy!",{
+            position:"top-center"
+        });
     }
 
     return (
@@ -46,11 +54,11 @@ const ExerciseDetails = (props) => {
                 <p>Exercise time:{totalTime}</p>
                 <p>Break time: {showTime}</p>
             </div>
-         
-                <button className='button'>Activity Complete</button>
-           
-            
-        </div>
+
+            <button className='btn btn-primary' onClick={diffToast}>Activity Complete</button>
+            </div>
+                
+        
     );
 };
 
